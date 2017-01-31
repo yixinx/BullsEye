@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF649B6C1E4032CF00A9E097 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF649B6B1E4032CF00A9E097 /* AboutViewController.swift */; };
 		BF8A62D31E3D49940041B6EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A62D21E3D49940041B6EA /* AppDelegate.swift */; };
 		BF8A62D51E3D49950041B6EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A62D41E3D49950041B6EA /* ViewController.swift */; };
 		BF8A62D81E3D49950041B6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8A62D61E3D49950041B6EA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF649B6B1E4032CF00A9E097 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		BF8A62CF1E3D49940041B6EA /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8A62D21E3D49940041B6EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF8A62D41E3D49950041B6EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				BF8A62D21E3D49940041B6EA /* AppDelegate.swift */,
 				BF8A62D41E3D49950041B6EA /* ViewController.swift */,
 				BF8A62D61E3D49950041B6EA /* Main.storyboard */,
+				BF649B6B1E4032CF00A9E097 /* AboutViewController.swift */,
 				BF8A62D91E3D49950041B6EA /* Assets.xcassets */,
 				BF8A62DB1E3D49950041B6EA /* LaunchScreen.storyboard */,
 				BF8A62DE1E3D49950041B6EA /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF649B6C1E4032CF00A9E097 /* AboutViewController.swift in Sources */,
 				BF8A62D51E3D49950041B6EA /* ViewController.swift in Sources */,
 				BF8A62D31E3D49940041B6EA /* AppDelegate.swift in Sources */,
 			);
@@ -512,6 +516,7 @@
 				BF8A62F91E3D49950041B6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF8A62FA1E3D49950041B6EA /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				BF8A62FC1E3D49950041B6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF8A62FD1E3D49950041B6EA /* Build configuration list for PBXNativeTarget "BullsEyeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				BF8A62FF1E3D49950041B6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
